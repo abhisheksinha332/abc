@@ -2,23 +2,100 @@ body{
     width: 100%;
     margin: 0%;
 }
-nav{
+.navBar{
     width: 100%;
-    height: 48px;
-    background-color: rgb(77, 75, 192);
+    height: 70px;
+    background-color:white;
     padding:0px;
+    position: fixed;
 }
-nav ul{
+.navBar ul{
     float: right;
     list-style-type: none;
-    padding: 0%;
+    padding-top:18px;
 }
-nav ul li{
+.navBar ul button{
+    background-color: rgb(124, 32, 167);
+    padding:4px 28px;
+    margin-right: 30px;
+    border-radius: 18px;
+    border: white;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navBar ul li{
     float: left;
-    color: rgb(10, 10, 10);
-    padding-right:25px;
+    color: rgb(46, 44, 44);
+    padding-right:38px;
     padding-bottom: 10px;
     margin: 0%;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
 }
+.navBar ul li a{
+    text-decoration: none;
+    color: rgb(66, 60, 60);
+}
+.body{
+    background-image: url("https://www.getepic.com/assets/home/hero-4-f.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body h1{
+    font-size: 130px;
+    color: white;
+    padding:230px 340px 0px 340px;
+    font-family: 'Courgette', cursive;
+}
+.body h3{
+    font-size:48px;
+    color: white;
+    padding:0px 260px 0px 500px;
+    font-family: 'Courgette', cursive;
+    margin: 0px;
+}
+.body button{
+    padding:10px 65px;
+    margin:35px 540px;
+    background-color: transparent;
+    border-radius: 28px;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.body button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+/* Media Query */
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
