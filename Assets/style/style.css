@@ -12,6 +12,7 @@ html,body
     background-color:white;
     padding:0px;
     position: fixed;
+    z-index: 2;
 }
 .navBar ul{
     float: right;
@@ -38,9 +39,19 @@ html,body
     font-size: 20px;
     font-weight: bold;
 }
+.navBar ul li .logo{
+    float: left;
+    z-index: 1;
+    font-size: 20px;
+    color: tomato;
+
+}
 .navBar ul li a{
     text-decoration: none;
     color: rgb(66, 60, 60);
+}
+.navBar ul li a:hover{
+    color: rgb(184, 17, 226);
 }
 .header{
     background-image: url("https://www.getepic.com/assets/home/hero-4-f.jpg");
@@ -200,6 +211,10 @@ html,body
     float: right;
     
 }
+.news{
+    width: 100%;
+    height: 40vh;
+}
 .news .newsletter h3{
     margin-top: 30px;
     padding-top:30px;
@@ -209,14 +224,22 @@ html,body
 }
 .news .newsletter form input[type="text"]{
     border: 1px solid lighten(gray, 50%);
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 30%; 
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 35px;
     margin-bottom: 35px;
     margin-left: 30%;
-    margin-right: 0px;
+    margin-right: 0px; 
+    font-weight: bold;
+    font-size:15px;
+    color: black;
+
+    
+}
+
+.news .newsletter form input[type="text"]:focus{
+    border: 1px rgb(33, 1, 48);
 }
 .news .newsletter form input[type="submit"]{
     border: 1px rgb(174, 52, 223);
@@ -225,6 +248,47 @@ html,body
     padding-top:11px;
     padding-left:15px;
     padding-right:15px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.2rem;
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(185, 179, 174);
+    display: table;
+}
+.footer .social_media{
+    width:100%;
+    display: table-cell;
+}
+.footer .social_media img{
+    height: 35px;
+    width: 35px;
+    margin-top: 36px;
+    margin-right:10px;
+    
+    filter: grayscale(100%);
+}
+.footer .social_media img:hover{
+    opacity: 1;
+    filter: grayscale(0%);
+
+}
+.footer .social_media h1{
+    margin-top:2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 30px;
+    color: rgb(62, 63, 60);
+}
+.footer .social_media ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 8%;
+    padding-left: 6%;
+    margin-top: 18px;
 }
 /* 
 form {
