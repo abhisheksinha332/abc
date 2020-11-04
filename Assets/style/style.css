@@ -88,24 +88,27 @@ html,body
     background-color: rgb(245, 239, 239);
     width: 100%;
     height: 100vh;
+    display: table;
 }
 .intro1{
     background-color: rgb(245, 239, 239);
 }
 .intro1 h1{
-    font-size: 45px;
+    font-size: 40px;
     float: right;
-    padding-top: 150px;
-    margin-right: 55px;
+    padding-top: 190px;
+    margin-right: 40px;
     padding-right: 25px;
-
+    width: 55%;
+    display: table-cell;
+    color:rgb(70, 66, 66)
 }
 
 .intro1 .inner img{
     background-color: white;
-    height: 50%;
-    width: 40%;
-    border-radius: 100%;
+    height: 50vh;
+    width: 30%;
+    border-radius: 120%;
     margin-top: 130px;
     margin-left: 100px;
     
@@ -121,17 +124,19 @@ html,body
 }
 .intro2 h1{
     font-size: 45px;
-    float: right;
-    padding-top: 150px;
+    padding-top: 190px;
     margin-left: 55px;
     padding-left: 25px;
     float: left;
+    width: 55%;
+    display: table-cell;
+    color:rgb(70, 66, 66)
 }
 .intro2 .inner img{
     background-color: white;
-    height: 50%;
-    width: 40%;
-    border-radius: 100%;
+    height: 50vh;
+    width: 30%;
+    border-radius: 120%;
     margin-top: 130px;
     margin-right: 100px;
     float: right;
@@ -150,15 +155,18 @@ html,body
 .intro3 h1{
     font-size: 45px;
     float: right;
-    padding-top: 150px;
+    padding-top: 190px;
     margin-right: 55px;
     padding-right: 25px;
+    width: 55%;
+    display: table-cell;
+    color:rgb(70, 66, 66)
 }
 .intro3 .inner img{
     background-color: white;
-    height: 50%;
-    width: 40%;
-    border-radius: 100%;
+    height: 50vh;
+    width: 30%;
+    border-radius: 120%;
     margin-top: 130px;
     margin-left: 100px;
     
@@ -174,22 +182,92 @@ html,body
 }
 .intro4 h1{
     font-size: 45px;
-    float: right;
-    padding-top: 150px;
+    padding-top:190px;
     margin-left: 55px;
     padding-left: 25px;
     float: left;
+    width: 55%;
+    display: table-cell;
+    color:rgb(70, 66, 66)
 }
 .intro4 .inner img{
     background-color: white;
-    height: 50%;
-    width: 40%;
-    border-radius: 100%;
+    height: 50vh;
+    width: 30%;
+    border-radius: 120%;
     margin-top: 130px;
     margin-right: 100px;
     float: right;
     
 }
+.news .newsletter h3{
+    margin-top: 30px;
+    padding-top:30px;
+}
+.news .newsletter form{
+    overflow: hidden;
+}
+.news .newsletter form input[type="text"]{
+    border: 1px solid lighten(gray, 50%);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 30%;
+    margin-right: 0px;
+}
+.news .newsletter form input[type="submit"]{
+    border: 1px rgb(174, 52, 223);
+    background-color: rgb(85, 3, 85);
+    padding-bottom: 11px;
+    padding-top:11px;
+    padding-left:15px;
+    padding-right:15px;
+}
+/* 
+form {
+    overflow: hidden;
+}
+    input{
+      width: 100%;
+      float: left;
+      padding: 15px 20px;
+      text-align: center;
+      font-family: inherit;
+      font-size: 1.1rem;
+      letter-spacing: 0.05rem;
+      outline: 0;
+    }
+      input[type=email] {
+        margin-bottom: 15px;
+        border: 1px solid lighten(gray, 50%);
+      }
+       
+        
+      input[type=email]:focus {
+          border-color: gray;
+        }
+      
+      
+        input[type=submit] {
+        background-color: purple;
+        color: white;
+        border: 1px solid purple;
+        transition:(all .4s);
+        }
+        
+        input[type=submit] {
+          cursor: pointer;
+          background-color: darken(purple, 10%);
+          border-color: darken(purple, 10%);
+        }
+      
+    
+   */
+
+
 
 
 
