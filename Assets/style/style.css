@@ -289,7 +289,39 @@ html,body
     padding-right: 8%;
     padding-left: 6%;
     margin-top: 18px;
+    display: table-cell;
 }
+.specs1{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.iconhot.com%2Ficon%2Fpng%2Ffire-toolbar%2F256%2Fnotes-8.png&f=1&nofb=1");
+    height: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.specs2{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.qpgs.org%2Fwp-content%2Fuploads%2F2018%2F02%2Fkids-sitting-2.png&f=1&nofb=1");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 290px;
+}
+.specs3{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F05%2FNewspaper-Free-Download-PNG.png&f=1&nofb=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 290px;
+}
+.specs4{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.pngio.com%2Fdocument-clipart-research-paper-document-research-paper-research-report-png-670_674.png&f=1&nofb=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 290px;
+}
+.font{
+    font-family: 'Courgette', cursive;
+    top: 60%;
+    display: contents;
+    color:  rgb(60, 1, 87);
+}
+
 /* 
 form {
     overflow: hidden;
