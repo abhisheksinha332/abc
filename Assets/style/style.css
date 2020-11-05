@@ -53,6 +53,19 @@ html,body
 .navBar ul li a:hover{
     color: rgb(184, 17, 226);
 }
+.navBar ul li .active{
+    color: rgb(184, 17, 226);
+}
+.mavBar button a{
+    text-decoration: none;
+    color: white;
+}
+.mavBar button a:hover{
+    text-decoration: none;
+}
+.navBar button:hover{
+    box-shadow: 4px 4px 4px rgb(59, 56, 56);
+}
 .header{
     background-image: url("https://www.getepic.com/assets/home/hero-4-f.jpg");
     width: 100%;
@@ -351,6 +364,29 @@ html,body
 .specs4:active{
     box-shadow:8px 8px 6px rgb(192, 132, 192) inset;
 }
+.btech1{
+    background-color: whitesmoke;
+    height: 120px;
+    box-shadow: 5px 5px 4px #e9e6e6;
+}
+.btech1:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+.btech1:active{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+.btech1{
+    background-color: whitesmoke;
+    height: 120px;
+    box-shadow: 5px 5px 4px #e9e6e6;
+}
+.btech1:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+.btech1:active{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+
 
 /* 
 form {
