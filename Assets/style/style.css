@@ -375,15 +375,37 @@ html,body
 .btech1:active{
     box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
 }
-.btech1{
+.btech2{
     background-color: whitesmoke;
     height: 120px;
     box-shadow: 5px 5px 4px #e9e6e6;
 }
-.btech1:hover{
+.btech2:hover{
     box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
 }
-.btech1:active{
+.btech2:active{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+.back1{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.QrWbAtipLsdAYF9NOt_3JAHaE7%26pid%3DApi&f=1");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 4px #e9e6e6;
+    overflow: hidden;
+}
+.back1:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+.back2{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.QrWbAtipLsdAYF9NOt_3JAHaE7%26pid%3DApi&f=1");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 4px #e9e6e6;
+    overflow: hidden;
+}
+.back2:hover{
     box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
 }
 
