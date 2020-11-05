@@ -296,30 +296,60 @@ html,body
     height: 290px;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 5px 5px 4px #e9e6e6;
 }
 .specs2{
     background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.qpgs.org%2Fwp-content%2Fuploads%2F2018%2F02%2Fkids-sitting-2.png&f=1&nofb=1");
     background-repeat: no-repeat;
     background-size: contain;
     height: 290px;
+    box-shadow: 5px 5px 4px #e9e6e6;
 }
 .specs3{
     background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F05%2FNewspaper-Free-Download-PNG.png&f=1&nofb=1");
     background-repeat: no-repeat;
     background-size: cover;
     height: 290px;
+    box-shadow: 5px 5px 4px #e9e6e6;
 }
 .specs4{
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.pngio.com%2Fdocument-clipart-research-paper-document-research-paper-research-report-png-670_674.png&f=1&nofb=1");
     background-repeat: no-repeat;
     background-size: cover;
     height: 290px;
+    box-shadow: 5px 5px 4px #e9e6e6;
+    /* box-shadow: 5px 10px inset; */
 }
 .font{
     font-family: 'Courgette', cursive;
     top: 60%;
     display: contents;
     color:  rgb(60, 1, 87);
+}
+.specs1:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+.specs2:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+.specs3:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+.specs4:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+
+.specs1:active{
+    box-shadow: 8px 8px 6px rgb(192, 132, 192) inset;
+}
+.specs2:active{
+    box-shadow: 8px 8px 6px rgb(192, 132, 192) inset;
+}
+.specs3:active{
+    box-shadow: 8px 8px 6px rgb(192, 132, 192) inset;
+}
+.specs4:active{
+    box-shadow:8px 8px 6px rgb(192, 132, 192) inset;
 }
 
 /* 
