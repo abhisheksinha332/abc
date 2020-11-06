@@ -399,7 +399,7 @@ html,body
 }
 .back2{
     background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.QrWbAtipLsdAYF9NOt_3JAHaE7%26pid%3DApi&f=1");
-    height: 200px;
+    height: 290px;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 4px #e9e6e6;
@@ -408,6 +408,208 @@ html,body
 .back2:hover{
     box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
 }
+.bg1{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.C_GMiv1W8OrQ6Sbrrt_Z0AHaI2%26pid%3DApi&f=1");
+}
+.bg2{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.LPAHaemyBHU_tQXl62zPOQHaJl%26pid%3DApi&f=1");
+}
+.bg3{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.L7H2G_iTTC4DhU_y5lrAfQAAAA%26pid%3DApi&f=1");
+}
+.bg4{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.fneP7HZIGe9LB_zJkAa_SgHaJ4%26pid%3DApi&f=1");
+}
+.bg5{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.3X5eOrRPMM8aMd914ioN6wHaJP%26pid%3DApi&f=1");
+}
+.bg6{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.HG_qZrRhTuLRhvODFZbS_wHaLM%26pid%3DApi&f=1");
+}
+.bg7{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.kfe6P0KLDafF_yEieqZc0QHaLL%26pid%3DApi&f=1");
+}
+.bg8{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.9PU9eF69406Qa2gX2OeinwHaLY%26pid%3DApi&f=1");
+}
+.bg9{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstrangealliances.files.wordpress.com%2F2013%2F01%2Fempire-of-the-saviours-book-cover.jpg&f=1&nofb=1");
+}
+.bg10{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.uVnsX97YcoDkARB4CDPk7AHaLF%26pid%3DApi&f=1");
+}
+.bg11{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.-Npa0Uu6eIdpAi972yhXEwHaL3%26pid%3DApi&f=1");
+}
+.bg12{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.fg2OVwe5lxo-W3ZmMY1PQwHaLM%26pid%3DApi&f=1");
+}
+.bg13{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.h9eX7AhCOyaqai4zdgEk1wHaLF%26pid%3DApi&f=1");
+}
+.bg14{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.xZRRx4W8nElSV9TlTPM-BwHaJ4%26pid%3DApi&f=1");
+}
+.bg15{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP._X54MTGRNzQLkRR_AgYk0AAAAA%26pid%3DApi&f=1");
+}
+.bg16{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ydzQxTwjU7RnlYAzK4bq-gHaJ5%26pid%3DApi&f=1");
+}
+.bg17{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.fPZ1KjBPWDi2zCzI80NowgHaKg%26pid%3DApi&f=1");
+}
+.bg18{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.IiIWkqTYmXWbzxrxv3njfgHaJl%26pid%3DApi&f=1");
+}
+.bg19{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.p4K90a8j7NP-UYJYZSWTjQHaHa%26pid%3DApi&f=1");
+}
+.bg20{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.tVl8bkTi23lI8AOm59o29QHaJi%26pid%3DApi&f=1");
+}
+.bg21{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.pgxqjja3nTitCSLJGHIy_wHaKe%26pid%3DApi&f=1");
+}
+.bg22{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Ppei26KYthTh1hbepsbIHgHaMd%26pid%3DApi&f=1");
+}
+.bg23{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.LohdjvgxtcvObQB1T0uufwAAAA%26pid%3DApi&f=1");
+}
+.bg24{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.oCRy59V_NSwE3E-87TK6SgHaMI%26pid%3DApi&f=1");
+}
+.bg25{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ulhDRvIf07bU3m7SFv74UAAAAA%26pid%3DApi&f=1");
+}
+.bg26{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.i0dusowITPQeMqpMmMZQVwHaLB%26pid%3DApi&f=1");
+}
+.bg27{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.WymEYvBv_MSmp2Es7as5bQAAAA%26pid%3DApi&f=1");
+}
+.bg28{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Qr4pr6T7Kfsc4G_Ym2z8vwHaJ4%26pid%3DApi&f=1");
+}
+.bg29{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.RyP46bXDE89YUtOqo3iNWAAAAA%26pid%3DApi&f=1");
+}
+.bg30{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.BuABlSSyjIsK1Q4IOgm_RwAAAA%26pid%3DApi&f=1");
+}
+.bg31{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.jc8_a8SskMORc5iBe-8o6AHaLT%26pid%3DApi&f=1");
+}
+.bg32{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ClNt8ewnkMF245qyEOv57wHaLH%26pid%3DApi&f=1");
+}
+.bg33{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.G6sASG5LacsgOVbY8x_DMQHaLH%26pid%3DApi&f=1");
+}
+.bg34{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.mlwwK53HPMJpy9hsnoAkLgAAAA%26pid%3DApi&f=1");
+}
+.bg35{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.9nFc4bwatGh-wgXJ_ice1AAAAA%26pid%3DApi&f=1");
+}
+.bg36{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yPqAF-6pgGO0p8YF5N3LCwHaJk%26pid%3DApi&f=1");
+}
+.bg37{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.bgdfRpVl49YHRrNheoITkQAAAA%26pid%3DApi&f=1");
+}
+.bg38{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.nxFuxVYuR2Qsxrp56WcDMQHaLo%26pid%3DApi&f=1");
+}
+.bg39{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.b--f0622tE6agxzY_t2MyAHaJk%26pid%3DApi&f=1");
+}
+.bg40{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.PvnMkSaOEjxR79Zi1xGPdAHaLW%26pid%3DApi&f=1");
+}
+.bg41{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.y5ddE-axAgHX6Kf7MVb2tQHaLR%26pid%3DApi&f=1");
+}
+.content button{
+    background-color: red;
+    border-radius: 6px;
+    height: 45px;
+    font-size: 22px;
+    border:1px white;
+
+}
+.more{
+    margin-top:20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    float: right;
+    margin-right: 12px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    background-color: rgb(107, 1, 107);
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom: 5px;
+}
+.more a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family:'Courgette', cursive;
+}
+.more:hover{
+    box-shadow: 4px 4px 4px white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .news1{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.rqb3z4nCDLBb7IgrU0MQjAAAAA%26pid%3DApi&f=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 290px;
+    box-shadow: 5px 5px 4px #e9e6e6;
+}
+
 
 
 /* 
