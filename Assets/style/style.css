@@ -386,6 +386,17 @@ html,body
 .btech2:active{
     box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
 }
+.btech3{
+    background-color: whitesmoke;
+    height: 80px;
+    box-shadow: 5px 5px 4px #e9e6e6;
+}
+.btech3:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+.btech3:active{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
 .back1{
     background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.QrWbAtipLsdAYF9NOt_3JAHaE7%26pid%3DApi&f=1");
     height: 200px;
