@@ -609,6 +609,10 @@ html,body
     height: 290px;
     box-shadow: 5px 5px 4px #e9e6e6;
 }
+iframe{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 
 
