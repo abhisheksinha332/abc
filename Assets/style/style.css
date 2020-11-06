@@ -408,6 +408,29 @@ html,body
 .back2:hover{
     box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
 }
+.back3{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Fq-vaj6YyQi0vkM6lL2_6gHaEK%26pid%3DApi&f=1");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 4px #e9e6e6;
+    overflow: hidden;
+}
+.back3:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+
+.back4{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Bye7H8RGEQGiAEIyClLEmgHaEK%26pid%3DApi&f=1");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 4px #e9e6e6;
+    overflow: hidden;
+}
+.back4:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
 .bg1{
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.C_GMiv1W8OrQ6Sbrrt_Z0AHaI2%26pid%3DApi&f=1");
 }
@@ -608,10 +631,6 @@ html,body
     background-size: cover;
     height: 290px;
     box-shadow: 5px 5px 4px #e9e6e6;
-}
-iframe{
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 
