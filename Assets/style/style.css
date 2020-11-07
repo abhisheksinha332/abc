@@ -397,6 +397,18 @@ html,body
 .btech3:active{
     box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
 }
+.btech4{
+    background-color: rgb(253, 5, 5);
+    height: 80px;
+    box-shadow: 5px 5px 4px #e9e6e6;
+    border-radius: 45px;
+}
+.btech4:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+.btech4:active{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
 .back1{
     background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.QrWbAtipLsdAYF9NOt_3JAHaE7%26pid%3DApi&f=1");
     height: 200px;
@@ -440,6 +452,42 @@ html,body
     overflow: hidden;
 }
 .back4:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+
+.back5{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Fq-vaj6YyQi0vkM6lL2_6gHaEK%26pid%3DApi&f=1");
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 4px #e9e6e6;
+    overflow: hidden;
+}
+.back5:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+
+.back6{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Fq-vaj6YyQi0vkM6lL2_6gHaEK%26pid%3DApi&f=1");
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 4px #e9e6e6;
+    overflow: hidden;
+}
+.back6:hover{
+    box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
+}
+
+.back7{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Fq-vaj6YyQi0vkM6lL2_6gHaEK%26pid%3DApi&f=1");
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 4px #e9e6e6;
+    overflow: hidden;
+}
+.back7:hover{
     box-shadow: 5px 5px 5px rgb(189, 137, 189) inset;
 }
 .bg1{
@@ -600,20 +648,20 @@ html,body
 
 
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);/
   }
   
-  /* Modal Content */
+ 
   .modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -622,8 +670,8 @@ html,body
     width: 80%;
   }
   
-  /* The Close Button */
-  .close {
+
+  .close , .close1 , .close2 , .close3, .close4, .close5, .close6, .close7, .close8, .close9, .close10, .close11, .close12, .close13, .close14, .close15, .close16, .close17, .close18, .close19, .close20, .close21{
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -631,8 +679,29 @@ html,body
   }
   
   .close:hover,
-  .close:focus {
-    color: #000;
+  .close:focus, .close1:hover,
+  .close1:focus,.close2:hover,
+  .close2:focus,.close3:hover,
+  .close3:focus, .close4:hover,
+  .close4:focus,.close5:hover,
+  .close5:focus, .close6:hover,
+  .close6:focus,.close7:hover,
+  .close7:focus, .close8:hover,
+  .close8:focus,.close9:hover,
+  .close9:focus, .close10:hover,
+  .close10:focus,.close11:hover,
+  .close11:focus, .close12:hover,
+  .close12:focus,.close13:hover,
+  .close13:focus, .close14:hover,
+  .close14:focus,.close15:hover,
+  .close15:focus, .close16:hover,
+  .close16:focus,.close17:hover,
+  .close17:focus, .close18:hover,
+  .close18:focus,.close19:hover,
+  .close19:focus, .close20:hover,
+  .close20:focus,.close21:hover,
+  .close21:focus {
+    color: rgb(165, 14, 157);
     text-decoration: none;
     cursor: pointer;
   }
@@ -643,51 +712,6 @@ html,body
     height: 290px;
     box-shadow: 5px 5px 4px #e9e6e6;
 }
-
-
-
-/* 
-form {
-    overflow: hidden;
-}
-    input{
-      width: 100%;
-      float: left;
-      padding: 15px 20px;
-      text-align: center;
-      font-family: inherit;
-      font-size: 1.1rem;
-      letter-spacing: 0.05rem;
-      outline: 0;
-    }
-      input[type=email] {
-        margin-bottom: 15px;
-        border: 1px solid lighten(gray, 50%);
-      }
-       
-        
-      input[type=email]:focus {
-          border-color: gray;
-        }
-      
-      
-        input[type=submit] {
-        background-color: purple;
-        color: white;
-        border: 1px solid purple;
-        transition:(all .4s);
-        }
-        
-        input[type=submit] {
-          cursor: pointer;
-          background-color: darken(purple, 10%);
-          border-color: darken(purple, 10%);
-        }
-      
-    
-   */
-
-
 
 
 
