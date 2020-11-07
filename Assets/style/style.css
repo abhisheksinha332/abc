@@ -823,8 +823,28 @@ html,body
   .app-form-button:hover {
     color: #b9134f;
   }
-  
-  
+
+  .msg{
+    width:auto;
+    margin-right:25%;
+    margin-left:25%;
+    font-size: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left:90px;
+}
+.form-header{
+    background-color: skyblue;
+    width:100%;
+    height:60px;
+    font-size:35px;
+    text-align: center;
+    padding:30px;
+    border-radius: 8px;
+    margin-left: -76px;
+    margin-top:15px;
+}
+
 
 
 
