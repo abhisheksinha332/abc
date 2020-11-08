@@ -870,7 +870,18 @@ html,body
     width: 90%;
   }
   
-
+  .try {
+    animation: rotation 8s ;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(120deg);
+    }
+  }
 
 
 
