@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html,body
 {
     width: 100%;
@@ -14,6 +17,25 @@ html,body
     position: fixed;
     z-index: 2;
 }
+.navBar .logo{
+    padding-top: 18px;
+    padding-left: 30px;
+    font-size: 30px;
+    color: blueviolet;
+    font-family:  'Courgette', cursive;;
+}
+.checkbtn{
+    font-size:30px;
+    color: violet;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 .navBar ul{
     float: right;
     list-style-type: none;
@@ -28,9 +50,10 @@ html,body
     color: white;
     font-size: 18px;
     font-weight: bold;
+
 }
 .navBar ul li{
-    float: left;
+    
     color: rgb(46, 44, 44);
     padding-right:38px;
     padding-bottom: 10px;
@@ -38,6 +61,7 @@ html,body
     color: white;
     font-size: 20px;
     font-weight: bold;
+    display: inline;
 }
 .navBar ul li .logo{
     float: left;
@@ -871,8 +895,28 @@ html,body
   }
   
   .try {
-    animation: rotation 8s ;
+    animation: Bounce In 2s ;
   }
+
+  .reserach{
+      width: 100%;
+      height: 50px;
+      background-color: cornsilk;
+      border: 2px solid rgb(87, 3, 87);
+      border-radius: 12px;
+      line-height: 45px;
+      padding-left: 50px;
+      font-size: 20px;
+      margin-top: 13px;
+      color: rgb(7, 7, 7);
+  }
+  .reserach:hover{
+    box-shadow: 4px 4px 4px white;
+}
+.reserach a{
+    text-decoration: none;
+    color: white;
+}
   
   @keyframes rotation {
     from {
@@ -906,3 +950,56 @@ html,body
       padding: 0;
     }
   }
+
+  @media(max-width:1200px){
+      label .logo{
+          font-size: 30px;
+          padding-left: 50px;
+
+      }
+      .navBar ul li a{
+          font-size: 16px;
+      }
+  }
+  
+  @media(max-width:1404px){
+    .checkbtn{
+       display: block;
+    
+
+   }
+    .navBar ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #b548fd;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+
+    }
+    .navBar ul li{
+        display: block;
+        padding-top: 15px;
+
+    }
+    .navBar ul li a{
+        font-size: 20px;
+        color: #fefefe;
+    }
+    .navBar ul li a:hover ,.navBar ul li a .active{
+        background: none;
+        color: #ffffff;
+    }
+    .navBar ul li a:hover{
+        color: rgb(26, 0, 51);
+    }
+    .navBar ul li .active{
+        color: rgb(26, 0, 51);
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+}
