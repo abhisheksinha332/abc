@@ -658,7 +658,7 @@ html,body
     height: 120%; 
     overflow: auto; 
     background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4);/
+    background-color: rgba(0,0,0,0.4);
   }
   
  
@@ -672,7 +672,7 @@ html,body
   }
   
 
-  .close , .close1 , .close2 , .close3, .close4, .close5, .close6, .close7, .close8, .close9, .close10, .close11, .close12, .close13, .close14, .close15, .close16, .close17, .close18, .close19, .close20, .close21{
+  .close , .close1 , .close2 , .close3, .close4, .close5, .close6, .close7, .close8, .close9, .close10, .close11, .close12, .close13, .close14, .close15, .close16, .close17, .close18, .close19, .close20, .close21,.closes{
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -701,7 +701,8 @@ html,body
   .close18:focus,.close19:hover,
   .close19:focus, .close20:hover,
   .close20:focus,.close21:hover,
-  .close21:focus {
+  .close21:focus,.closes:hover,
+  .closes:focus {
     color: rgb(165, 14, 157);
     text-decoration: none;
     cursor: pointer;
@@ -727,11 +728,11 @@ html,body
     height: 120%; 
     overflow: auto; 
     background-color:#3e3e3e;
-    background-color: rgba(0,0,0,0.4);/
+    background-color: rgba(0,0,0,0.4);
   }
   
  
-  .modal-content {
+  .modal-cs {
     background-color:#3e3e3e;
     margin: auto;
     padding: 20px;
@@ -844,6 +845,31 @@ html,body
     margin-left: -76px;
     margin-top:15px;
 }
+
+.modals {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 120%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);/
+  }
+  
+ 
+  .modal-contents {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    padding-left: 30px;
+    border: 1px solid #888;
+    width: 90%;
+  }
+  
 
 
 

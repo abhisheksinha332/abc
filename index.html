@@ -17,8 +17,8 @@
                 <!-- <h3><a href="#">BookStore</a></h3> -->
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="service.html">eBooks</a></li>
-                <li id="myBtn1"><a href="#">Contact Us</a></li>
-                <li><a href="#">Contribute</a></li>
+                <li id="myBtns"><a href="#">Contact Us</a></li>
+                <li><a href="contribute.html">Contribute</a></li>
                 <button><a href="service.html" style="color: white;">Get Started</a></button>
             </ul>
             
@@ -86,9 +86,9 @@
         </div>
         
     </section>
-    <div id="myModal" class="contactus">
-        <div class="modal-content">
-          <span class="close">&times;</span>
+    <div id="myModals" class="contactus">
+        <div class="modal-cs">
+          <span class="closes">&times;</span>
           
         <div class="screen-body">
             <div class="screen-body-item left">
@@ -101,16 +101,16 @@
             <div class="screen-body-item">
               <div class="app-form">
                 <div class="app-form-group">
-                  <input class="app-form-control" placeholder="NAME">
+                  <input class="app-form-control" placeholder="NAME" required>
                 </div>
                 <div class="app-form-group">
-                  <input class="app-form-control" placeholder="EMAIL">
+                  <input class="app-form-control" placeholder="EMAIL" required>
                 </div>
                 <div class="app-form-group">
-                  <input class="app-form-control" placeholder="CONTACT NO">
+                  <input class="app-form-control" placeholder="CONTACT NO" required>
                 </div>
                 <div class="app-form-group message">
-                  <input class="app-form-control" placeholder="MESSAGE">
+                  <input class="app-form-control" placeholder="MESSAGE" required>
                 </div>
                 <div class="app-form-group buttons">
                   <button class="app-form-button" id="canc">CANCEL</button>
@@ -124,34 +124,34 @@
 
       
 <script>
-    var modal = document.getElementById("myModal");
+    var modals = document.getElementById("myModals");
 
-    var btn = document.getElementById("myBtn1");
+    var btns = document.getElementById("myBtns");
 
-    var span = document.getElementsByClassName("close")[0];
+    var spans = document.getElementsByClassName("closes")[0];
     var canc= document.getElementById("canc");
     var send = document.getElementById("send");
 
 
-    btn.onclick = function() {
-      modal.style.display = "block";
+    btns.onclick = function() {
+      modals.style.display = "block";
     }
 
-    span.onclick = function() {
-      modal.style.display = "none";
+    spans.onclick = function() {
+      modals.style.display = "none";
     }
     canc.onclick= function(){
-        modal.style.display="none";
+        modals.style.display="none";
     }
     send.onclick=function(){
-        modal.style.display="none";
+        modals.style.display="none";
     }
    
 
 
     window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
+      if (event.target == modals) {
+        modals.style.display = "none";
       }
     }
 

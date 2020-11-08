@@ -4,93 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/style/style.css">
     <style>
-         .msg{
-        width:30%;
-        margin-right:10%;
-        margin-left:10%;
-        font-size: 35px;
-        border: 2px solid black;
-        border-radius: 10px;
-        padding-left:10px;
-    }
-    .form-header{
-        background-color: skyblue;
-        width:100%;
-        height:40px;
-        font-size:20px;
-        text-align: center;
-        padding:0px;
-        border-radius: 8px;
-        margin-left: -76px;
-        margin-top:15px;
-    }
-    form{
-        padding-left: 80px;
-    }
-    label{
-        margin-top:15px;
-        font-size:15px;
-    }
-    label:active{
-        margin-top:5px;
-        font-size:10px;
-    }
-    input{
-        height:25px;
-        width:280px;
-        margin-bottom:15px;
-        border: none;
-        border-bottom:2px solid silver;
-    }
-    input:hover{
-        height:25px;
-        width:280px;
-        margin-bottom:15px;
-        border: none;
-        border-bottom:2px solid rgb(3, 3, 3);
-    }
-    input:focus{
-        height:25px;
-        width:300px;
-        border:none;
-    }
-    textarea{
-        width:300px;
-        margin-bottom:15px;
-        border: none;
-        border-bottom:2px solid silver;
-    }
-    button{
-            width:80px;
-            height:30px;
-            background-color: darkblue;
-            border-radius: 7px;
-            color:white;
-            border-color:whitesmoke;
-            margin:10px;
+        .panel-heading{
+            background-color: rgb(43, 1, 82);
+        }
+        .panel-footer{
+            color: red;
+        }
+        form button{
+            width:30%;
         }
     </style>
-</head>
-<body>
-    <div class="msg">
-        <div class="form-header">
-            You can help us to spread this learning community by sharing your notes or books
-        </div>
-       
-        <form>
-            <label for="name">Name</label><br>
-            <input type="text" name="name"><br>
-             <label for="email">Email</label><br>
-            <input type="email" name="email"><br>
-            <label for="subject">Subject</label><br>
-            <input type="text" name="subject"><br>
-            <label for="topic">Topic</label><br>
-            <input type="text" name="topic"><br>
-            <label for="file">Please Upload your File</lebel><br>
-            <input type="file" name="file">
-            <button type="submit" onclick="myFunction()">Submit</button>
-        </form>
-    </div>
+    <body>
+        <body style="background-color: blueviolet;">
+            <nav>
+        
+                <div class="navBar">
+                    
+                    <ul>
+                        <!-- <h3><a href="#">BookStore</a></h3> -->
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="service.html">eBooks</a></li>
+                        <li id="myBtns"><a href="#">Contact Us</a></li>
+                        <li><a href="contribute.html"class="active">Contribute</a></li>
+                        <button><a href="service.html" style="color: white;">Get Started</a></button>
+                    </ul>
+                    
+                </div>
+            </nav>
+            <br><br><br><br>
+            <div class="container">
+                <div class="row">
+                    <ol class="col-12 breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Contribute</li>
+                    </ol>
+                </div>
+            </div>  
+    <div class="container">
+        <div class="row row_style">
+          <div class="col-xs-6 col-md-6 col-md-offset-3">
+            <div class="panel panel-primary">
+              <div class="panel-heading ">
+                <h4>Contribute your notes</h4>
+                </div>
+                <div class="panel-body">
+                <div class="text-warning">Please upload your notes or books, it will help others to read.<br><br></div>
+      
+                <form>
+                    <input type="text" class="form-control" placeholder="Name" name="Name" required><br>
+                  <input type="email" class="form-control" placeholder="Email" name="Email" required><br>
+                  <input type="text" class="form-control" placeholder="Subject" name="Subject"><br>
+                  <input type="text" class="form-control" placeholder="Topic" name="Topic" required><br>
+                  <input type="file" class="form-control" placeholder="Upload File" name="File" required><br>
+                  <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+                </form>
+                </div>
+                <div class="panel-footer">
+                  or you can mail us at 3327abhishek@gmail.com
+                
+                  </div>
+                </div>
+                </div></div></div>
+
+                <div id="myModals" class="contactus">
+                    <div class="modal-cs">
+                      <span class="closes">&times;</span>
+                      
+                    <div class="screen-body">
+                        <div class="screen-body-item left">
+                          <div class="app-title">
+                            <span>CONTACT</span>
+                            <span>US</span>
+                          </div>
+                          <div class="app-contact">CONTACT INFO : +91 7004 741 734</div>
+                        </div>
+                        <div class="screen-body-item">
+                          <div class="app-form">
+                            <div class="app-form-group">
+                              <input class="app-form-control" placeholder="NAME" required>
+                            </div>
+                            <div class="app-form-group">
+                              <input class="app-form-control" placeholder="EMAIL" required>
+                            </div>
+                            <div class="app-form-group">
+                              <input class="app-form-control" placeholder="CONTACT NO" required>
+                            </div>
+                            <div class="app-form-group message">
+                              <input class="app-form-control" placeholder="MESSAGE" required>
+                            </div>
+                            <div class="app-form-group buttons">
+                              <button class="app-form-button" id="canc">CANCEL</button>
+                              <button class="app-form-button" id="send">SEND</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                  
+            <script>
+                var modals = document.getElementById("myModals");
+            
+                var btns = document.getElementById("myBtns");
+            
+                var spans = document.getElementsByClassName("closes")[0];
+                var canc= document.getElementById("canc");
+                var send = document.getElementById("send");
+            
+            
+                btns.onclick = function() {
+                  modals.style.display = "block";
+                }
+            
+                spans.onclick = function() {
+                  modals.style.display = "none";
+                }
+                canc.onclick= function(){
+                    modals.style.display="none";
+                }
+                send.onclick=function(){
+                    modals.style.display="none";
+                }
+               
+            
+            
+                window.onclick = function(event) {
+                  if (event.target == modals) {
+                    modals.style.display = "none";
+                  }
+                }
+
+</script>
+                <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+            
 </body>
+
 </html>

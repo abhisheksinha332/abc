@@ -9,18 +9,18 @@
          <link rel="stylesheet" href="Assets/style/style.css">
         </head>
     <body style="background-color: blueviolet;">
-        <nav>   
-        <div class="navBar">                
+        <div class="navBar">
+            
             <ul>
-             <!-- <h3><a href="#">BookStore</a></h3> -->
-                <li><a href="index.html">Home</a></li>
-                <li><a href="service.html" class="active">eBooks</a></li>
-                <li><a href="#">Newspapers</a></li>
-                <li><a href="#">Blogs</a></li>
+                <!-- <h3><a href="#">BookStore</a></h3> -->
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="service.html"class="active">eBooks</a></li>
+                <li id="myBtn1"><a href="#">Contact Us</a></li>
+                <li><a href="contribute.html">Contribute</a></li>
                 <button><a href="service.html" style="color: white;">Get Started</a></button>
             </ul>
+            
         </div>
-        </nav>
         <br><br><br><br><br><br><br>
         
         <div class="container">
@@ -266,6 +266,78 @@
                 </div>
 
             </div>
+
+    
+            <div id="myModals" class="contactus">
+                <div class="modal-content">
+                  <span class="closes">&times;</span>
+                  
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                      <div class="app-title">
+                        <span>CONTACT</span>
+                        <span>US</span>
+                      </div>
+                      <div class="app-contact">CONTACT INFO : +91 7004 741 734</div>
+                    </div>
+                    <div class="screen-body-item">
+                      <div class="app-form">
+                        <div class="app-form-group">
+                          <input class="app-form-control" placeholder="NAME" required>
+                        </div>
+                        <div class="app-form-group">
+                          <input class="app-form-control" placeholder="EMAIL" required>
+                        </div>
+                        <div class="app-form-group">
+                          <input class="app-form-control" placeholder="CONTACT NO" required>
+                        </div>
+                        <div class="app-form-group message">
+                          <input class="app-form-control" placeholder="MESSAGE" required>
+                        </div>
+                        <div class="app-form-group buttons">
+                          <button class="app-form-button" id="canc">CANCEL</button>
+                          <button class="app-form-button" id="send">SEND</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              
+        <script>
+            var modals = document.getElementById("myModals");
+        
+            var btns = document.getElementById("myBtns");
+        
+            var spans = document.getElementsByClassName("closes")[0];
+            var canc= document.getElementById("canc");
+            var send = document.getElementById("send");
+        
+        
+            btns.onclick = function() {
+              modals.style.display = "block";
+            }
+        
+            spans.onclick = function() {
+              modals.style.display = "none";
+            }
+            canc.onclick= function(){
+                modals.style.display="none";
+            }
+            send.onclick=function(){
+                modals.style.display="none";
+            }
+           
+        
+        
+            window.onclick = function(event) {
+              if (event.target == modals) {
+                modals.style.display = "none";
+              }
+            }
+
+</script>
             <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
